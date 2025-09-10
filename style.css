@@ -121,3 +121,62 @@ body {
   height: auto;
   object-fit: contain;
 }
+
+/* pillars of Bangladesh  */
+.pillars {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+  /* background-color: red; */
+  padding: 0 10px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #333;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+
+.pillars .pillarsContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.pillars .pillarsContainer div {
+  flex: 1;
+  height: fit-content;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.pillars .pillarsContainer div img {
+  width: 50px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pillars .pillarsContainer div h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pillars .pillarsContainer div p {
+  font-size: 17px;
+  color: #555;
+  text-align: left;
+  line-height: 1.3;
+}
