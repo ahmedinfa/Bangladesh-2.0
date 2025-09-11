@@ -272,7 +272,6 @@ h2 {
   height: fit-content;
   background-color: #fff;
   padding: 20px;
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
   border-radius: 10px;
 }
 
@@ -296,4 +295,58 @@ h2 {
   border-top: none;
   text-transform: capitalize;
   color: #006a50;
+}
+
+/* recent news section */
+.recentNews {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.recentNews .newsCard {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  gap: 50px;
+}
+
+.recentNews .newsCard .image {
+  width: 35%;
+  height: 100%;
+}
+
+.recentNews .newsCard .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recentNews .newsCard .text {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.recentNews .newsCard .text h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.recentNews .newsCard .text > p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+  margin-top: 10px;
 }
