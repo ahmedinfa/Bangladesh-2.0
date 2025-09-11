@@ -350,3 +350,26 @@ h2 {
   line-height: 1.4;
   margin-top: 10px;
 }
+
+/* donate section */
+.donate {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.donate .takaBtn {
+  padding: 20px 40px;
+  border: #c9c9c9 solid 1px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.donate .takaBtn:hover {
+  background-color: #c6e4d6;
+  color: #006a50;
+  /* border: none; */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
