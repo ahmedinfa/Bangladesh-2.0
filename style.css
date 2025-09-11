@@ -373,3 +373,24 @@ h2 {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
+/* newsletter section */
+.newsLetter {
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.newsLetter > div {
+  width: 100%;
+  height: 400px;
+  background-color: #c6e4d6;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
